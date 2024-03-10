@@ -1,3 +1,7 @@
 venv
 .env
+.DS_Store
 util
+logs
+dags/__pycache__
+plugins/common/__pycache__

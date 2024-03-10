@@ -1,12 +1,12 @@
-import airflow import DAG
+from airflow import DAG
 import pendulum
 import datetime
 from airflow.operators.python import PythonOperator
 
 with DAG(
     dag_id="dags_python_operator",
-    schedule="30 6 * * *",
-    start_date=pendulum.datetime(2024, 3, 4, tz="Asia"),
+    schedule="45 19 * * *",
+    start_date=pendulum.datetime(2024, 3, 4, tz="Asia/Seoul"),
     catchup=False
 ) as dag:
     
