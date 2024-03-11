@@ -2,7 +2,6 @@ from airflow import DAG
 import pendulum
 import datetime
 from airflow.operators.email import EmailOperator
-from common.common_func import EmailInfo
 
 with DAG(
     dag_id="dags_email_operator",
