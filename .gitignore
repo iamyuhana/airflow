@@ -1,7 +1,7 @@
-venv
+venv_airflow
 .env
 .DS_Store
-util
 logs
+config
 dags/__pycache__
 plugins/common/__pycache__
