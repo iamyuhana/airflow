@@ -5,3 +5,4 @@ logs
 config
 dags/__pycache__
 plugins/common/__pycache__
+.idea
