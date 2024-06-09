@@ -5,8 +5,8 @@ from airflow.operators.email import EmailOperator
 
 with DAG(
     dag_id="dags_email_operator",
-    schedule="45 19 * * 6",
-    start_date=pendulum.datetime(2024, 3, 8, tz="Asia/Seoul")
+    schedule="45 19 * * *",
+    start_date=pendulum.datetime(2024, 6, 8, tz="Asia/Seoul")
 ) as dag:
     
     send_email_task = EmailOperator(

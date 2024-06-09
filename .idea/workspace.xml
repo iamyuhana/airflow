@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d991d474-9526-45c4-a562-ecacffc129ca" name="Changes" comment="" />
+    <list default="true" id="d991d474-9526-45c4-a562-ecacffc129ca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dags/dags_bash_select_fruit.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/dags_bash_select_fruit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dags/dags_email_operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/dags_email_operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/shell/select_fruit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/shell/select_fruit.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +30,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/iamyuhana/airflow.git",
+    "accountId": "cbac89fb-8c1c-4336-93d9-c4d8790cb04d"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -79,7 +91,7 @@
       <workItem from="1717841237265" duration="721000" />
       <workItem from="1717843040161" duration="2904000" />
       <workItem from="1717846892889" duration="390000" />
-      <workItem from="1717847289634" duration="645000" />
+      <workItem from="1717847289634" duration="13478000" />
     </task>
     <servers />
   </component>
