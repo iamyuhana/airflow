@@ -8,14 +8,14 @@ import pendulum
 default_args = {
     'owner': 'airflow',
     'start_date': pendulum.datetime(2024, 5, 1, tz="Asia/Seoul"),    # We recommend against using dynamic values as start_date, especially datetime.now() as it can be quite confusing.
-    'email': ['xxx@xxx.com'],
+    'email': ['hnyu86@naver.com'],
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1
 }
 
 @dag(default_args=default_args, schedule="@once")
-def yhn_test_dag():
+def test_air_pollution_etl():
     """
     https://airflow.apache.org/docs/apache-airflow/stable/tutorial/taskflow.html
     """
@@ -118,4 +118,4 @@ def yhn_test_dag():
     msg_result_data = load_data(df_result_data)
     make_mart(msg_result_data)
 
-yhn_test_dag()
+test_air_pollution_etl()
